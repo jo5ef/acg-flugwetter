@@ -23,7 +23,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		try {
-			Charts[] charts = new Charts[] { Charts.AlpforNeu, Charts.AlpforUpd, Charts.Gafor };
+			Charts[] charts = new Charts[] { Charts.LlwSwcNeu, Charts.LlwSwcUpd, Charts.Gafor };
 			
 			File prevTsFile = new File("prev-ts.json");
 			Map<Charts, Date> prevTs = new HashMap<Charts, Date>();

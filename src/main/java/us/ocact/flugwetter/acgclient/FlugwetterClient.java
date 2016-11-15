@@ -39,6 +39,9 @@ public class FlugwetterClient {
 		chartInfos.put(Charts.AlpforUpd, new ChartInfo("/index.php?id=442", "alpfor-upd.gif\\?mtime=(\\d+)", "/products/chartloop/alpfor-upd.gif?mtime=%d"));
 		chartInfos.put(Charts.AlpforPdf, new ChartInfo("/index.php?id=442", "alpfor.pdf\\?mtime=(\\d+)", "/products/chartloop/alpfor-pdf.gif?mtime=%d"));
 		chartInfos.put(Charts.Gafor, new ChartInfo("/index.php?id=446", "gafor.gif\\?mtime=(\\d+)", "/products/chartloop/gafor.gif?mtime=%d"));
+		chartInfos.put(Charts.LlwSwcNeu, new ChartInfo("/index.php?id=442", "llswc-neu.gif\\?mtime=(\\d+)", "/products/chartloop/llswc-neu.gif?mtime=%d"));
+		chartInfos.put(Charts.LlwSwcUpd, new ChartInfo("/index.php?id=442", "llswc-upd.gif\\?mtime=(\\d+)", "/products/chartloop/llswc-upd.gif?mtime=%d"));
+		chartInfos.put(Charts.LlwSwcPdf, new ChartInfo("/index.php?id=442", "llswc.pdf\\?mtime=(\\d+)", "/products/chartloop/llswc.pdf?mtime=%d"));
 	}
 	
 	public FlugwetterClient() {
